@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    margin: 0px;
+    background-color: orange;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 100px;
+}
+
+.line {
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+    height: 6px;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+.welcome {
+    background: linear-gradient(#fff987 0%, #f29f46 100%);
+    z-index: 5;
+}
+p{
+    font-family: fantasy;
+    margin-bottom: 30px;
+}
+section{
+    margin-left:0px;
+    margin-right: 0px;
+    background: linear-gradient(#fff987 0%, #f29f46 100%);
+    height: 300px
+}
+.links{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 60px;
+    padding-right: 30px;
+    float: left;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+  position: fixed;
+    z-index: 9;
+    text-decoration:none;
+}
+.links:hover{
+    color: blue;
+}
